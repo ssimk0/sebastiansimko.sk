@@ -1,0 +1,49 @@
+<template>
+  <div>
+    <header class="flex p-5 lg:pl-20 lg:pr-20 md:pr-10 md:pl-10 pr-5 pl-5">
+      <div class="flex-1 font-bold lg:pl-20 md:pl-10 pl-5">
+        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+      </div>
+      <nav class="flex-1 text-right lg:pr-20 md:pr-10 pr-5">
+        <a class="hover:underline p-2" href="https://drive.google.com/open?id=1IxgctZLrJogtLKY-veVM81N-O7sovW9E" target="_blank">Resume</a>
+      </nav>
+    </header>
+    <slot/>
+  </div>
+</template>
+
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
+
+<style>
+body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin:0;
+  padding:0;
+  line-height: 1.5;
+}
+
+.layout {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+.nav__link {
+  margin-left: 20px;
+}
+</style>
