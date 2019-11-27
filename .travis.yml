@@ -2,20 +2,11 @@ language: node_js
 node_js:
   - "stable"
 
-cache:
-  directories:
-    - "$HOME/.npm"
-    - "node_modules"
-stages:
-  - name: predeploy
-  - name: deploy
+cache: yarn
 
-before_script:
+install:
   - yarn install
 
-jobs:
-  include:
-    - stage: predeploy
-      script: yarn predeploy
-    - stage: deploy
-      script: yarn deploy
+script:
+  - yarn predeploy
+  - yarn deploy
