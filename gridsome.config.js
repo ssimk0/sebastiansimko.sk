@@ -29,7 +29,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
 module.exports = {
   siteName: 'Sebastián Simko',
-  titleTemplate: 'Sebastián - %s',
+  titleTemplate: 'Sebastián Simko',
   siteDescription: 'Sebastián Simko bio website',
   siteUrl: 'https://sebastiansimko.sk',
   icon: {
