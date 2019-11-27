@@ -4,7 +4,7 @@
   "scripts": {
     "build": "gridsome build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --repo https://${GITHUB_TOKENi}@github.com/ssimk0/sebastiansimko.sk.git",
+    "deploy": "gh-pages -d dist --repo https://${GITHUB_TOKEN}@github.com/ssimk0/sebastiansimko.sk.git",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
