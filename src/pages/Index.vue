@@ -10,7 +10,6 @@
           <div class="lg:pl-20 md:pl-10">
             <h4 class="text-uppercase text-gray-400 text-sm pb-5 tracking-widest-xl">NETWORK</h4>
             <ul class="text-sm">
-              <li><a href="mailto:contact@sebastiansimko.sk" >contact@sebastiansimko.sk</a></li>
               <li><a href="https://www.linkedin.com/in/sebastian-simko-2bb63bb7/">LinkedIn</a></li>
               <li><a href="https://github.com/ssimk0">Github</a></li>
               <li><a href="https://twitter.com/sebastiansimko">Twitter</a></li>
