@@ -40,6 +40,8 @@
               <li><a href="https://www.wirecard.com/making-payments" target="_blank">Wirecard</a></li>
               <li><a href="https://affinityanalytics.com/" target="_blank">Affinity Analytics</a></li>
               <li><a href="https://domcek.org" target="_blank">Domcek (Volunteer work)</a></li>
+              <li><a href="https://farasaca.sk" target="_blank">Farasaca (Volunteer work)</a></li>
+              <li><a href="https://veselahviezdicka.sk" target="_blank">Veselahviezdicka</a></li>
               <li><a href="https://adaptiware.company" target="_blank">Adaptiware</a></li>
             </ul>
           </div>
