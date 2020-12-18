@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
-    "gridsome": "^0.7.4",
+    "gridsome": "^0.7.23",
     "tailwindcss": "^1.1.4"
   },
   "devDependencies": {
