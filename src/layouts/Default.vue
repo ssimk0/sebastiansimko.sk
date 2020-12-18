@@ -1,10 +1,10 @@
 <template>
   <div>
-    <header class="flex p-5 lg:pl-20 lg:pr-20 md:pr-10 md:pl-10 pr-5 pl-5">
-      <div class="flex-1 font-bold lg:pl-20 md:pl-10 pl-5">
+    <header class="flex p-4 container mx-auto">
+      <div class="flex-1 font-bold">
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </div>
-      <nav class="flex-1 text-right lg:pr-20 md:pr-10 pr-5">
+      <nav class="flex-1 text-right">
         <a class="hover:underline p-2" href="https://drive.google.com/open?id=1IxgctZLrJogtLKY-veVM81N-O7sovW9E" target="_blank">Resume</a>
       </nav>
     </header>
