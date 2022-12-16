@@ -11,7 +11,7 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "gridsome": "^0.7.23",
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^1.9.6"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
