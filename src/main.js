@@ -3,7 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/css/tailwind.css'
-import '~/css/app.scss'
+import '~/css/app.css'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
