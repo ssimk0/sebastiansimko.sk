@@ -6,7 +6,15 @@
            <p>I mostly work on internal system or corporate application which I cannot present to you. Here is small websites which I can, mainly for my friends or as a help for non profit organizations.</p>
            </div>
            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-               <div class="p-4">
+                <div class="p-4">
+                    <a href="https://bafpro.sk" target="_blank">
+                       <img src="/portfolio/bafpro.png" />
+                   </a>
+                   <h4 class="text-lg py-2 font-bold"> Bafpro </h4>
+                   <p>Done design by artwork, PHP API backend and React frontend. As package was also delivered learning platform path and CMS</p>
+               </div>
+
+              <div class="p-4">
                     <a href="https://domcek.org" target="_blank">
                        <img src="/portfolio/domcek.png" />
                    </a>
