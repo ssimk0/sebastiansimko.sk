@@ -5,7 +5,7 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </div>
       <nav class="flex-1 text-right">
-        <a class="hover:underline p-2" href="https://drive.google.com/open?id=1IxgctZLrJogtLKY-veVM81N-O7sovW9E" target="_blank">Resume</a>
+        <a class="hover:underline p-2" href="https://drive.google.com/file/d/1CMq9C_pHaDIGWqdB5sCyI8SimYKthyjG/view" target="_blank">Resume</a>
       </nav>
     </header>
     <slot/>
